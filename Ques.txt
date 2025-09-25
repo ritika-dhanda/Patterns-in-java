@@ -95,7 +95,24 @@ public class Main
     ***
     **
     *
+{
+	public static void main(String[] args) {
+	    int n = 5;
+	    //1. no of rows 
+	    for(int i = 1;i<2*n;i++){
+	   int c = (i > n) ? 2*n - i : i ;
 
+	        //2. no of columns
+	        for(int j = 1;j<=c;j++){
+	            //3. What to print
+	            System.out.print("*  ");
+	        }
+	       
+	        System.out.println();
+	    }
+      
+        }
+    }
 
 6.       *
         **
